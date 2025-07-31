@@ -1,4 +1,30 @@
 /**
+ * @module stats
+ * 
+ * @overview
+ * This module provides basic statistical functions for numeric arrays,
+ * including calculation of sum, average (mean), and median. It also includes
+ * a constant value for π (pi), and a custom error class for input validation.
+ *
+ * Designed for educational, analytical, or general-purpose statistical
+ * processing in JavaScript projects.
+ * 
+ * 
+ * @example
+ * import { average, median, PI } from './stats.js';
+ * 
+ * const numbers = [1, 2, 3, 4, 5];
+ * 
+ * console.log(average(numbers)); // 3
+ * console.log(median(numbers));  // 3
+ * console.log(PI);               // 3.14
+ *
+ * @author Dimas Yogi
+ * @license MIT
+ *
+ */
+
+/**
  * Calculates the sum of all elements in a numeric array.
  *
  * @param {number[]} arr - An array of numbers to sum.
