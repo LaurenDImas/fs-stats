@@ -1,3 +1,5 @@
 # fs-stats
 
-Learning purpose
+Learning purpose.
+
+[See Docs](https://laurendimas.github.io/fs-stats/)
