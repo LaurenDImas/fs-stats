@@ -32,7 +32,7 @@
  * @example
  * sum([1, 2, 3]); // returns 6
  */
-function sum(arr) {
+export function sum(arr) {
     return arr.reduce((total, num) => total + num, 0);
 }
 

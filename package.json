@@ -5,7 +5,7 @@
   "description": "Learn module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "module"
@@ -14,5 +14,13 @@
   "license": "MIT",
   "dependencies": {
     "fs-stats-test": "^0.1.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.27.1",
+    "@jest/globals": "^30.0.5",
+    "jest": "^30.0.5"
+  },
+  "jest": {
+     "coverageReporters": ["clover", "json", "lcov", "text", "html"]
   }
 }
