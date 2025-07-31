@@ -1,0 +1,14 @@
+{
+  "name": "fs-stats",
+  "version": "0.1.0",
+  "description": "Learn module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "module"
+  ],
+  "author": "Lauren Dimas",
+  "license": "MIT"
+}
