@@ -1,7 +1,6 @@
 import {average as mean, median} from "fc-stats-test";
 import {readFileSync} from "node:fs";
 
-// sdoc -d docs .
 const fileBuffer = readFileSync("./score.txt", {encoding: 'utf8'})
 const lines = fileBuffer.split('\n');
 const nums = lines.map(line => Number.parseInt(line))
